@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>augmented-reality</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="augmented-reality" fill-rule="nonzero" fill="#000000">
+            <path d="M2,8.00005106 L2,71.9999489 C2,75.3149655 4.68504799,78 7.99873844,78 L34.0012616,78 C37.3143605,78 40,75.3138593 40,71.9999489 L40,8.00005106 C40,4.68503449 37.314952,2 34.0012616,2 L7.99873844,2 C4.68563951,2 2,4.68614073 2,8.00005106 Z M0,8.00005106 C0,3.58174486 3.58089638,0 7.99873844,0 L34.0012616,0 C38.4188428,0 42,3.5797863 42,8.00005106 L42,71.9999489 C42,76.4182551 38.4191036,80 34.0012616,80 L7.99873844,80 C3.58115718,80 0,76.4202137 0,71.9999489 L0,8.00005106 Z" id="Rectangle-3"></path>
+            <path d="M51.5,11.2936206 L27.0855117,25 L51.5,38.7063794 L75.9144883,25 L51.5,11.2936206 Z M51.5,9 L80,25 L51.5,41 L23,25 L51.5,9 Z" id="Rectangle-4"></path>
+            <path d="M51.5,41.2936206 L27.0855117,55 L51.5,68.7063794 L75.9144883,55 L51.5,41.2936206 Z M51.5,39 L80,55 L51.5,71 L23,55 L51.5,39 Z" id="Rectangle-4-Copy"></path>
+            <polygon id="Rectangle-5" points="23 25 25 25 25 55 23 55"></polygon>
+            <polygon id="Rectangle-5-Copy" points="78 25 80 25 80 55 78 55"></polygon>
+        </g>
+    </g>
+</svg>

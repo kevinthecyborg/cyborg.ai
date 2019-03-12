@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>design</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="design" fill-rule="nonzero" fill="#000000">
+            <path d="M26.236068,32 L53.763932,32 L40,4.47213595 L26.236068,32 Z M40,0 L57,34 L23,34 L40,0 Z" id="Triangle"></path>
+            <path d="M17,78 C25.2842712,78 32,71.2842712 32,63 C32,54.7157288 25.2842712,48 17,48 C8.71572875,48 2,54.7157288 2,63 C2,71.2842712 8.71572875,78 17,78 Z M17,80 C7.61115925,80 0,72.3888407 0,63 C0,53.6111593 7.61115925,46 17,46 C26.3888407,46 34,53.6111593 34,63 C34,72.3888407 26.3888407,80 17,80 Z" id="Oval"></path>
+            <path d="M48,78 L78,78 L78,48 L48,48 L48,78 Z M46,46 L80,46 L80,80 L46,80 L46,46 Z" id="Rectangle-2"></path>
+        </g>
+    </g>
+</svg>

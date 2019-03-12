@@ -72,6 +72,18 @@ footer {
   min-height: 450px;
   position: relative;
 }
+.small-content-wrapper {
+  .small-content-section:first-child {
+    padding-left: 15px;
+  }
+  .small-content-section:last-child {
+    padding-right: 15px;
+  }
+  .small-content-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
 
 
 // GLOBAL STYLES
@@ -139,11 +151,17 @@ h5 {
   }
   &.small {
     font-size: 1rem;
+    margin-bottom: 0;
   }
 }
 .sub-hero-link {
   margin-top: 2rem;
   display: inline-block;
+}
+.normal {
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: .1rem;
 }
 .bold {
   font-weight: 500;
@@ -269,8 +287,38 @@ h5 {
     left: 5rem;
   }
   &.white {
-    fill: $white !important;
+    fill: $white;
   }
+}
+.fill-blue {
+  fill: $blue;
+}
+.fill-blue-1 {
+  fill: rgba(37,117,252,.5);
+}
+.fill-red {
+  fill: $red;
+}
+.fill-yellow {
+  fill: $yellow;
+}
+.fill-yellow-1 {
+  fill: rgba(255,234,0,.33)
+}
+.fill-yellow-2 {
+  fill: rgba(255,234,0,.66)
+}
+.fill-green {
+  fill: $green;
+}
+.fill-indigo {
+  fill: $indigo;
+}
+.fill-purple {
+  fill: $purple;
+}
+.stroke-purple-1 {
+  stroke: rgba(106,17,203,.5);
 }
 
 // HELPER CLASSES
@@ -293,6 +341,9 @@ a.bg-none,
 a:hover.bg-none,
 .bg-none {
   background: none;
+}
+.block {
+  display: block;
 }
 
 // TRANSITIONS
