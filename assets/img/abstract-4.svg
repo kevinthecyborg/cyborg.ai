@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="560px" height="499px" viewBox="0 0 560 499" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape Copy 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="77.268044%" y1="60.5711979%" x2="7.86708565%" y2="103.677615%" id="linearGradient-1">
+            <stop stop-color="#6A11CB" offset="0%"></stop>
+            <stop stop-color="#2575FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="Artboard" transform="translate(-1249.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-2" transform="translate(906.000000, -418.000000)">
+                <path d="M614.504756,917 L1078.11702,114 L806.612266,114 L343,917 L614.504756,917 Z" id="Combined-Shape-Copy-9"></path>
+            </g>
+        </g>
+    </g>
+</svg>

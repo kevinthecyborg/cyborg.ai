@@ -1,0 +1,25 @@
+// RESPONSIVE CSS
+
+// MOBILE
+@media screen and (max-width: 575px) {
+  .visible-mobile {
+    display: block;
+    visibility: visible;
+  }
+  .visible-desktop {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 576px) {
+  .visible-mobile {
+    display: none;
+    visibility: hidden;
+  }
+  .visible-desktop {
+    display: block;
+    visibility: visible;
+  }
+}

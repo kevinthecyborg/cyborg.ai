@@ -1,0 +1,36 @@
+// Variable overrides for Bootstrap
+
+// TYPOGRAPHY
+//$font-family-sans-serif: Camphor, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+// COLORS
+$blue:    #2575FC !default;
+$indigo:  #4744e4 !default;
+$purple:  #6a11cb !default;
+$pink:    #e83e8c !default;
+$red:     #ff1744 !default;
+$orange:  #ff9100 !default;
+$yellow:  #ffea00 !default;
+$green:   #00e676 !default;
+$teal:    #1de9b6 !default;
+$cyan:    #00e5ff !default;
+
+$light-grey: #f6f9fc;
+$dark:       #0d1113;
+$white:      #ffffff;
+
+$primary: $indigo !default;
+
+// LINK COLOR
+$link-color: $white !default;
+
+// BUTTONS
+$btn-border-width: 2px !default;
+$btn-padding-y-lg: .75rem !default;
+$btn-padding-x-lg: 1.5rem !default;
+
+// NAVBAR
+$navbar-padding-x:          5rem !default;
+$navbar-padding-y:          3rem !default;
+$navbar-nav-link-padding-x: 1.5rem !default;
+$navbar-light-active-color: $indigo !default;

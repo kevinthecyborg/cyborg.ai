@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="866px" height="749px" viewBox="0 0 866 749" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00F2FE" offset="0%"></stop>
+            <stop stop-color="#4FACFE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Portrait" transform="translate(-195.000000, -114.000000)" fill-rule="nonzero" fill="url(#linearGradient-1)">
+            <g id="HERO" transform="translate(32.000000, 72.000000)">
+                <path d="M753.601983,183.978916 C817.786288,197.395993 904.8429,204.30782 962.46693,254.113636 C1020.09096,304.122741 1048.28241,397.229123 1012.82147,459.638859 C977.360525,521.845306 878.247193,553.151819 817.963592,611.089196 C757.857296,669.026574 736.403427,753.594816 693.495687,780.632259 C650.410643,807.466413 585.694425,776.973056 526.297347,746.886278 C467.077575,716.799499 413.354248,687.322588 342.60967,645.851623 C271.687786,604.177369 183.567346,550.712351 166.368789,479.357896 C149.170233,408.003442 202.716255,318.759552 247.219736,232.361708 C291.723218,145.963865 327.361465,62.208779 385.694714,45.7423665 C444.027963,29.0726649 525.056214,79.6916367 586.403643,115.06393 C647.751072,150.436224 689.417679,170.561839 753.601983,183.978916 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

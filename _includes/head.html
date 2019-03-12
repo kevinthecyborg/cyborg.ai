@@ -1,0 +1,28 @@
+<head>
+ <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "assets/img/favicon/apple-touch-icon.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "assets/img/favicon/favicon-32x32.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "assets/img/favicon/favicon-16x16.png" | relative_url }}">
+  <link rel="manifest" href="{{ "assets/img/favicon/site.webmanifest" | relative_url }}">
+  <link rel="mask-icon" href="{{ "assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" | relative_url }}">
+  <link rel="shortcut icon" href="{{ "assets/img/favicon/favicon.ico" | relative_url }}">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="assets/img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="{{ "assets/main.css" | relative_url }}">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+  {%- feed_meta -%}
+  <script src="{{ "assets/javascript/bootstrap/jquery.min.js" | relative_url }}"></script>
+  <script src="{{ "assets/javascript/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
+  <script src="{{ "assets/javascript/particles/particles.min.js" | relative_url }}"></script>
+  <script type="text/javascript">
+    particlesJS.load('particles-js', '{{ "assets/javascript/particles/particlesjs-config.json" | relative_url }}', function() {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+</head>
