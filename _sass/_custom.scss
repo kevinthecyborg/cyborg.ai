@@ -47,11 +47,6 @@ footer {
   padding-top: 8rem;
   padding-bottom: 6rem;
 
-  hr {
-    border-color: rgba(255,255,255, 0.25);
-    margin: 0;
-    padding-bottom: 7rem;
-  }
   .footer-link {
     font-size: 1.25rem;
     letter-spacing: .1rem;
@@ -75,6 +70,18 @@ footer {
   height: 100vh;
   min-height: 450px;
   position: relative;
+}
+.sub-content {
+  .inside-container:first-child {
+    padding-top: 20rem;
+  }
+  .inside-container:last-child {
+    padding-bottom: 20rem;
+  }
+  .inside-container {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
 }
 .small-content-wrapper {
   .small-content-section:first-child {
@@ -108,10 +115,6 @@ body, html {
 body {
   background-color: $dark;
 }
-main {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
 a {
   text-decoration: none;
   background: transparent -webkit-gradient(linear,left top,right top,color-stop(50%,#fff),color-stop(0,rgba(156,158,165,.6))) no-repeat;
@@ -136,6 +139,9 @@ ul {
 canvas {
   display: block;
   user-select: none;
+}
+hr {
+  border-color: rgba(255,255,255, 0.25);
 }
 
 
@@ -349,6 +355,9 @@ small {
 // HELPER CLASSES
 .pt-20 {
   padding-top: 20rem;
+}
+.pb-6 {
+  padding-bottom: 6rem;
 }
 .pb-7 {
   padding-bottom: 7rem;

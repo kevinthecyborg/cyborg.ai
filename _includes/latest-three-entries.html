@@ -1,0 +1,8 @@
+{% for post in site.posts limit:3 %}
+  <a class="stacked-content-container" href="{{ post.url | relative_url }}">
+    <div class="normal muted">{{ post.publish-date }}</div>
+    <div class="normal large">
+      {{ post.title }}
+    </div>
+  </a>
+{% endfor %}

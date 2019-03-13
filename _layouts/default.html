@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}" style="background: #4744e4;">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" style="background: $dark;">
   {%- include head.html -%}
   <body>
-    <script>
-      $(function() {
-        $('body').addClass('fade-out');
-      });
-    </script>
-    {%- include nav-light.html -%}
+    {%- include body-fade-in.html -%}
+    {%- include nav-light-absolute.html -%}
     <main>
       {{ content }}
     </main>
+    {%- include footer-dark.html -%}
     {%- include nav-active.html -%}
+    {%- include aos-init.html -%}
   </body>
 </html>
