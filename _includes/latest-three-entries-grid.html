@@ -1,0 +1,11 @@
+{% for post in site.posts limit: 3 %}
+  <div class="col-md-4">
+    <div class="transition-3d-hover">
+      <a href="{{ post.url | relative_url }}">
+        <img class="img-fluid" src="{{ post.thumbnail | relative_url }}" alt="">
+        <div class="normal muted mt-5">{{ post.publish-date }}</div>
+        <div class="normal large mt-4">{{ post.title }}</div>
+      </a>
+    </div>
+  </div>
+{% endfor %}

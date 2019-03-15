@@ -1,13 +1,5 @@
 // CUSTOM CSS
 
-// HOMEPAGE
-
-
-
-
-// JOURNAL
-
-
 // NAVBAR
 #navbar {
   z-index: 1;
@@ -81,18 +73,6 @@ footer {
   section {
     padding-top: 10rem;
     padding-bottom: 10rem;
-  }
-}
-.small-content-wrapper {
-  .small-content-section:first-child {
-    padding-left: 15px;
-  }
-  .small-content-section:last-child {
-    padding-right: 15px;
-  }
-  .small-content-section {
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
   }
 }
 .stacked-content {
@@ -259,68 +239,6 @@ small {
 }
 
 
-// BUTTONS
-.btn {
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-  font-weight: 600;
-
-  &:hover {
-    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
-  }
-  &.muted {
-    opacity: .3;
-  }
-}
-.btn-primary-muted {
-  background: rgba($indigo, .12);
-  color: $indigo;
-
-  &:hover {
-    background: $indigo;
-    color: $white;
-  }
-}
-.btn-primary-muted-light{
-  background: rgba($indigo, .33);
-  color: rgba($white, .75);
-
-  &:hover {
-    background: $indigo;
-    color: $white;
-  }
-}
-.btn-lg {
-  font-size: 1rem;
-}
-.btn-xs {
-  font-size: .7rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.btn-dark {
-  color: #fff !important;
-  background-color: #1e2022;
-  border-color: #1e2022;
-
-  &:hover {
-    background: $indigo;
-    border-color: $indigo;
-  }
-}
-
-// ICONS
-.material-icons {
-  &.md-18 {
-    font-size: 18px;
-  }
-  &.md-36 {
-    font-size: 36px;
-  }
-  &.md-48 {
-    font-size: 48px;
-  }
-}
-
 // SVG ICONS
 .arrow-down {
   width: 15px;
@@ -411,14 +329,7 @@ a:hover.bg-none,
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transform: translateY(-1px);
-  }
-}
-.transition-3d-hover-3px {
-  transition: all 0.3s ease-in-out;
-
-  &:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
   }
 }
 

@@ -1,7 +1,7 @@
 // RESPONSIVE CSS
 
 // DESKTOP
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-left: 0;
     padding-right: 0;
@@ -14,6 +14,14 @@
     background: transparent linear-gradient(to right, #fff 50%, rgba(156, 158, 165, 0.6) 0%) no-repeat;
     background-size: 202% 1px;
     background-position: 100% 100%;
+  }
+  .grid-container {
+    .grid-row {
+      margin-top: 10rem;
+    }
+    .grid-row:first-child {
+      margin-top: 0;
+    }
   }
   .offset-paragraph {
     padding-right: 10rem;
@@ -30,7 +38,11 @@
 
 
 // MOBILE
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 767px) {
+  .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   .visible-mobile {
     display: block;
     visibility: visible;

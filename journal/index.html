@@ -1,0 +1,40 @@
+---
+layout: default
+title: Cyborg Corp - Journal
+---
+<!-- FRONT PAGE
+========================================================== -->
+<section class="container-fluid flex-hero dark">
+  <div class="row align-items-center">
+    <div class="col-sm-8">
+      <h1 class="jumbo-text">Journal</h1>
+      <h2 class="jumbo-text muted">Get in the mind of Cyborg Corp.</h2>
+    </div>
+  </div>
+  <svg viewBox="0 0 15 23" class="arrow-down arrow-down-bottom-left white"><title>See more</title><path d="M6.693 20.077V0h1.553v20.137l5.656-5.507L15 15.7 7.5 23 0 15.7l1.098-1.069z"></path></svg>
+</section>
+
+<div class="sub-content">
+  <!-- JOURNAL ENTRIES (12)
+  ======================================================= -->
+  <section class="container-fluid dark inside-container grid-container">
+    {% for post in site.posts %}
+      {% assign loopIndex = forloop.index | modulo: 3 %}
+        {% if loopIndex == 1 %}
+          <div class="row grid-row" data-aos="fade-up" data-aos-offset="200">
+        {% endif %}
+            <div class="col-md-4">
+              <div class="transition-3d-hover">
+                <a href="{{ post.url | relative_url }}">
+                  <img class="img-fluid" src="{{ post.thumbnail | relative_url }}" alt="">
+                  <div class="normal muted mt-5">{{ post.publish-date }}</div>
+                  <div class="normal large mt-4">{{ post.title }}</div>
+                </a>
+              </div>
+            </div>
+        {% if loopIndex == 0 or forloop.last %}
+          </div>
+        {% endif %}
+    {%- endfor -%}
+  </section>
+</div>
