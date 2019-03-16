@@ -40,10 +40,14 @@
 // MOBILE
 @media screen and (max-width: 767px) {
   .navbar {
-    padding: 1.5rem 2rem;
+    padding: 2.5rem 2rem;
   }
   .navbar-light .navbar-toggler {
     color: $white;
+    font-weight: 200;
+    font-size: 1.25rem;
+    letter-spacing: .1rem;
+    transition: .25s;
   }
   .navbar-collapse.collapse.show {
     background: $dark;
@@ -86,6 +90,17 @@
 
     .copyright-text {
       margin-bottom: 2.5rem;
+      display: block;
+    }
+  }
+  .row.v-margin-col-fix {
+    .col-sm-4,
+    .col-md-4 {
+      margin-top: 5rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
     }
   }
   .visible-mobile {
