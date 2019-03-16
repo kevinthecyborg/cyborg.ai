@@ -40,10 +40,14 @@
 // MOBILE
 @media screen and (max-width: 767px) {
   .navbar {
-    padding: 0.25rem 2rem;
+    padding: 1.5rem 2rem;
+  }
+  .navbar-light .navbar-toggler {
+    color: $white;
   }
   .navbar-collapse.collapse.show {
     background: $dark;
+    color: #fff;
   }
   .nav-link {
     padding: 2rem 1rem;
