@@ -1,0 +1,23 @@
+<script type="text/javascript">
+  $(document).ready(function() {
+
+    // navbar active toggle
+    $.each($('#navbar').find('li'), function() {
+      $(this).toggleClass('active',
+      window.location.pathname.indexOf($(this).find('a').attr('href')) > -1);
+    });
+    
+    // 'menu +' and 'close x' toggle
+    var clicks = true;
+    $('a').click(function() {
+      if (clicks) {
+        $(".menu-text").html('Close x');
+        clicks = false;
+      } else {
+        $(".menu-text").html('Menu +');
+        clicks = true;
+      }
+    });
+
+  });
+</script>

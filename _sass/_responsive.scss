@@ -40,7 +40,13 @@
 // MOBILE
 @media screen and (max-width: 767px) {
   .navbar {
-    padding: 2rem 2rem;
+    padding: 0.25rem 2rem;
+  }
+  .navbar-collapse.collapse.show {
+    background: $dark;
+  }
+  .nav-link {
+    padding: 2rem 1rem;
   }
   .container-fluid {
     padding-left: 2rem;
