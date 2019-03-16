@@ -1,5 +1,5 @@
 {% for post in site.posts limit: 3 %}
-  <div class="col-md-4">
+  <div class="col-md-4" data-aos="fade-up" data-aos-offset="200">
     <div class="transition-3d-hover">
       <a href="{{ post.url | relative_url }}">
         <img class="img-fluid" src="{{ post.thumbnail | relative_url }}" alt="">
