@@ -1,5 +1,19 @@
 // RESPONSIVE CSS
 
+// XL DESKTOP
+@media screen and (min-width: 1199px) {
+  .row.v-margin-col-fix {
+    .col-12.col-md-6.col-xl-3 {
+      &:nth-child(3),
+      &:nth-child(4) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+
+
 // DESKTOP
 @media screen and (min-width: 768px) {
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -21,6 +35,14 @@
     }
     .grid-row:first-child {
       margin-top: 0;
+    }
+  }
+  .row.v-margin-col-fix {
+    .col-md-6 {
+      &:nth-child(3),
+      &:nth-child(4) {
+        margin-top: 5rem;
+      }
     }
   }
   .offset-paragraph {
@@ -49,9 +71,17 @@
     letter-spacing: .1rem;
     transition: .25s;
   }
-  .navbar-collapse.collapse.show {
+  .navbar-collapse.collapse {
     background: $dark;
     color: #fff;
+    opacity: 0;
+  }
+  .navbar-collapse.collapsing {
+    transition: none;
+  }
+  .navbar-collapse.collapse.show {
+    opacity: 1;
+    transition: all 0.2s ease-in;
   }
   .nav-item:first-child {
     margin-top: 2rem;
@@ -112,3 +142,6 @@
     visibility: hidden;
   }
 }
+
+
+//

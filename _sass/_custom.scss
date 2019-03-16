@@ -319,7 +319,8 @@ a:hover.bg-none,
 
 // ANIMATIONS
 body {
-  opacity: 0; transition: none;
+  opacity: 0;
+  transition: none;
 
   &.fade-out {
     opacity: 1;
