@@ -39,9 +39,29 @@
 
 // MOBILE
 @media screen and (max-width: 767px) {
+  .navbar {
+    padding: 2rem 2rem;
+  }
   .container-fluid {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .sub-content {
+    section:first-child {
+      padding-top: 10rem;
+    }
+    section:last-child {
+      padding-bottom: 10rem;
+    }
+    section {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+  }
+  .arrow-down.arrow-down-bottom-left {
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
   }
   .visible-mobile {
     display: block;
