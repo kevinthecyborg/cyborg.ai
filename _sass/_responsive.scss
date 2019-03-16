@@ -5,6 +5,10 @@
   .navbar {
     padding: 2.5rem 2rem;
   }
+  a.navbar-brand svg {
+    width: 94px;
+    height: 24px;
+  }
   .navbar-light .navbar-toggler {
     color: $white;
     font-weight: 200;
