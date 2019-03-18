@@ -2,12 +2,19 @@
 layout: default
 title: Cyborg Corp - Forward-thinking software
 ---
+<script type="text/javascript">
+  $(function(){
+    $('h1.glitch').glitch({
+        minint:1, maxint:3, maxglitch:15, hoffset:10, voffset:3
+    });
+  });
+</script>
 <!-- FRONT PAGE
 ========================================================= -->
 <section class="container-fluid h-100 dark">
   <div class="row align-items-center h-100">
     <div class="col-lg-8">
-      <h1 class="display-3">We're a software development company focused on enhancing the human experience through AR.</h1>
+      <h1 class="display-3 glitch">We're a software development company focused on enhancing the human experience through AR.</h1>
       <a class="sub-hero-link" href="{{ "/thesis" | relative_url }}">Read Thesis</a>
     </div>
   </div>
