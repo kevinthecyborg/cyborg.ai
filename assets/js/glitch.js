@@ -18,7 +18,7 @@
 
         return this.each(function(){
             $t=$(this);
-            $t.wrap('<span style="display:inline-block;position:relative">');
+            $t.wrap('<span style="display:block;position:relative">');
             var $s=$t.closest('span');
             var $c=$t.clone();
             var height=$t.height();

@@ -2,13 +2,14 @@
 layout: default
 title: Cyborg Corp - Thesis
 ---
+{%- include glitch.html -%}
 <!-- FRONT PAGE
 ========================================================== -->
 <section class="container-fluid h-100 dark">
   <div class="row align-items-center h-100">
     <div class="col-lg-6">
-      <h1 class="display-3">Our story.</h1>
-      <h2 class="display-3 muted">Who we are. What we do. And why we do it.</h2>
+      <h1 class="display-3 glitch">Our story.</h1>
+      <h2 class="display-3 muted glitch">Who we are. What we do. And why we do it.</h2>
     </div>
   </div>
   <svg viewBox="0 0 15 23" class="arrow-down arrow-down-bottom-left white"><title>See more</title><path d="M6.693 20.077V0h1.553v20.137l5.656-5.507L15 15.7 7.5 23 0 15.7l1.098-1.069z"></path></svg>
@@ -72,16 +73,16 @@ title: Cyborg Corp - Thesis
   <!-- TEAM PHOTO
   ======================================================= -->
   <section class="container-fluid dark inside-container">
-    <div class="row" data-aos="fade-up" data-aos-offset="200">
+    <div class="row">
       <div class="col">
-        <img class="img-fluid" src="{{ "assets/img/team-01.jpg" | relative_url }}" alt="">
+        <img class="img-fluid" src="{{ "assets/img/team-01.jpg" | relative_url }}" alt="" data-aos="fade-up">
       </div>
     </div>
   </section>
   <!-- GET IN TOUCH
   ======================================================= -->
   <section class="container-fluid dark inside-container">
-    <div class="row data-aos="fade-up" data-aos-offset="200"">
+    <div class="row" data-aos="fade-up" data-aos-offset="200">
       <div class="col-lg-6 offset-lg-5">
         <h4 class="display-3">Interested in joining our team?</h4>
         <p class="normal muted mt-4 offset-paragraph">We've been expecting you. Drop us a line at the link below and let us know how you could help us achieve our mission.</p>
